@@ -99,6 +99,11 @@ body .float-right {
   margin-left: 40px;
 }
 
+/*For section links in header*/
+.pagelink {
+  color:black;
+}
+
 .icon-cards {
   position: relative;
   width: 60vw;
