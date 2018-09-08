@@ -101,7 +101,7 @@ body .float-right {
 
 /*For section links in header*/
 .pagelink {
-  color:black;
+  font-color:black;
 }
 
 .icon-cards {
