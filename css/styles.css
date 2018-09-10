@@ -99,6 +99,14 @@ body .float-right {
   margin-left: 40px;
 }
 
+body .top {
+  float:center;
+  margin-left:auto;
+  margin-right:auto;
+  width: 650px;
+  position:relative;
+}
+
 /*For section links in header*/
 .pagelink {
   color:black;
@@ -132,24 +140,26 @@ body .float-right {
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
   border-radius: 6px;
 }
+
+/*Change degree divisions based on number of team members!*/
 .icon-cards__item:nth-child(1) {
-  transform: rotateY(0) translateZ(35vw);
+  transform: rotateY(0) translateZ(25vw);
 }
 .icon-cards__item:nth-child(2) {
-  transform: rotateY(60deg) translateZ(35vw);
+  transform: rotateY(90deg) translateZ(25vw);
 }
 .icon-cards__item:nth-child(3) {
-  transform: rotateY(120deg) translateZ(35vw);
+  transform: rotateY(180deg) translateZ(25vw);
 }
 .icon-cards__item:nth-child(4) {
-  transform: rotateY(180deg) translateZ(35vw);
+  transform: rotateY(270deg) translateZ(25vw);
 }
-.icon-cards__item:nth-child(5) {
+/* .icon-cards__item:nth-child(5) {
   transform: rotateY(240deg) translateZ(35vw);
 }
 .icon-cards__item:nth-child(6) {
   transform: rotateY(300deg) translateZ(35vw);
-}
+} */
 
 .card {
   margin: 0;
